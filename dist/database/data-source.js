@@ -16,6 +16,7 @@ exports.AppDataSource = new typeorm_1.DataSource({
     entities: [mensagem_1.mensagem],
     migrations: [],
     subscribers: [],
+    driver: require('mysql2'),
 });
 exports.AppDataSource.initialize();
 //# sourceMappingURL=data-source.js.map
