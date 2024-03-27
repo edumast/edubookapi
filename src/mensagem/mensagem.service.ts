@@ -1,8 +1,8 @@
 import { Injectable, UnauthorizedException } from '@nestjs/common';
 import { CreateMensagemDto } from './dto/create-mensagem.dto';
 import { UpdateMensagemDto } from './dto/update-mensagem.dto';
-import { AppDataSource } from '../../../src/data-source';
-import { mensagem } from '../../../src/entity/mensagem';
+import { AppDataSource } from '../database/data-source';
+import { mensagem } from '../database/entity/mensagem';
 import { validate } from './dto/validate';
 
 
